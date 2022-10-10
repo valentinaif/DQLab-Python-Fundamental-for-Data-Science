@@ -1,0 +1,35 @@
+print("===== IF Statement=====\n")
+
+i = 10
+
+if(i==10) : 
+	print("ini adalah angka 10")
+	
+print("\n=====IF ... ELSE ... =====\n")
+
+i = 7
+
+if(i==10) : 
+	print("ini adalah angka 10")
+else :
+	print("ini bukan angka 10")
+	
+print("\n=====IF ... ELIF ... ELSE ...\n=====")
+
+i = 3
+if(i==5) :
+	print("ini adalah angka 5")
+elif(i>5):
+	print("ini lebih besar dari 5")
+else :
+	print("ini kurang dari 5")
+	
+print("\n=====NESTED ... IF ...\n=====")
+
+i = 4
+if(i<7) :
+	print("nilai i kurang dari 7")
+	if(i<3) :
+		print("nilai i kurang dari 3")
+	else :
+		print("nilai i kurang dari 7 tapi lebih dari 3")
